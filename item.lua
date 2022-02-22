@@ -8,8 +8,8 @@
         stack_size = 200,
         subgroup = "raw-material",
         type = "item"
-    },
-    {
+      },
+      {
         icon = "__base__/graphics/icons/battery.png",
         icon_mipmaps = 4,
         icon_size = 64,
@@ -18,8 +18,8 @@
         stack_size = 200,
         subgroup = "tool",
         type = "item"
-  },
-  {
+      },
+      {
         icon = "__base__/graphics/icons/battery.png",
         icon_mipmaps = 4,
         icon_size = 64,
@@ -28,8 +28,8 @@
         stack_size = 200,
         subgroup = "intermediate-product",
         type = "item"
-  },
-  {
+      },
+      {
         base_color = {
           b = 0.03,
           g = 0.32000000000000002,
