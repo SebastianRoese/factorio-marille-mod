@@ -1,0 +1,64 @@
+@startuml
+left to right direction
+
+agent "Marille Fruit" as marille_fruit
+queue "Marille Most" as marille_most
+queue "Marille Schnaps" as marille_young
+agent "Marille Schnaps Flasche" as marille_bottled_young
+agent "Marille Schnaps Fass" as marille_keg_young
+agent "Alte Marille Fass" as marille_keg_old
+queue "Alte Marille" as marille_old
+agent "Alte Marille Flasche" as marille_bottled_old
+
+agent "TBD" as tbd
+queue "Wasser" as water
+agent "Sand" as sand
+agent "Glas" as glass
+agent "Holz" as wood
+agent "Eisenplatte" as iron_plate
+
+agent "Flasche" as bottle
+agent "Holzfass" as keg
+
+keg -down-> (keg-filling)
+(keg-emptying) -up-> keg
+
+wood -down-> (keg-building)
+iron_plate -down-> (keg-building)
+(keg-building) -down-> keg
+
+glass -> (bottle-building)
+(bottle-building) -> bottle
+
+tbd -down-> (marille-growing)
+water -down-> (marille-growing)
+sand -down-> (marille-growing)
+(marille-growing) -> marille_fruit
+
+marille_fruit -> (mosting)
+water -down-> (mosting)
+(mosting) -> marille_most
+
+marille_most -> (burning)
+(burning) -> marille_young
+
+marille_young -down-> (bottling-young)
+bottle -> (bottling-young)
+(bottling-young) -> marille_bottled_young
+
+marille_young -> (keg-filling)
+(keg-filling) -> marille_keg_young
+
+marille_keg_young -> (ageing)
+(ageing) -> marille_keg_old
+
+marille_keg_old -> (keg-emptying)
+(keg-emptying) -> marille_old
+
+marille_old -> (bottling-old)
+bottle -up-> (bottling-old)
+(bottling-old) -> marille_bottled_old
+
+hide circle
+hide empty member
+@enduml
