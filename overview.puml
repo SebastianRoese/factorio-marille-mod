@@ -10,7 +10,7 @@ agent "Alte Marille Fass" as marille_keg_old
 queue "Alte Marille" as marille_old
 agent "Alte Marille Flasche" as marille_bottled_old
 
-agent "TBD" as tbd
+agent "Dünger" as fertelizer
 queue "Wasser" as water
 agent "Sand" as sand
 agent "Glas" as glass
@@ -30,7 +30,7 @@ iron_plate -down-> (keg-building)
 glass -> (bottle-building)
 (bottle-building) -> bottle
 
-tbd -down-> (marille-growing)
+fertelizer -down-> (marille-growing)
 water -down-> (marille-growing)
 sand -down-> (marille-growing)
 (marille-growing) -> marille_fruit
