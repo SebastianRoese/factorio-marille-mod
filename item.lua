@@ -1,6 +1,6 @@
   data:extend({
     {
-        icon = "__base__/graphics/icons/battery.png",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-fruit",
@@ -20,29 +20,19 @@
         type = "item"
       },
       {
-        icon = "__base__/graphics/icons/battery.png",
-        icon_mipmaps = 4,
-        icon_size = 64,
-        name = "marille-aged",
-        order = "xyz",
-        stack_size = 200,
-        subgroup = "intermediate-product",
-        type = "item"
-      },
-      {
         base_color = {
-          b = 0.03,
-          g = 0.32000000000000002,
-          r = 0.15
+          b = 0.0,
+          g = 0.65,
+          r = 1.0
         },
         default_temperature = 18,
         flow_color = {
-          b = 0.31000000000000001,
-          g = 0.75,
-          r = 0.42999999999999998
+          b = 0.0,
+          g = 0.8,
+          r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__base__/graphics/icons/fluid/lubricant.png",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-most.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-most",
@@ -51,41 +41,41 @@
       },
       {
         base_color = {
-          b = 0.03,
-          g = 0.32000000000000002,
-          r = 0.15
+          b = 0.0,
+          g = 0.65,
+          r = 1.0
         },
-        default_temperature = 70,
+        default_temperature = 18,
         flow_color = {
-          b = 0.31000000000000001,
-          g = 0.75,
-          r = 0.42999999999999998
+          b = 0.0,
+          g = 0.8,
+          r = 1.0
         },
         heat_capacity = "0.1KJ",
         icon = "__base__/graphics/icons/fluid/lubricant.png",
         icon_mipmaps = 4,
         icon_size = 64,
-        name = "marille-hot",
+        name = "marille-schnaps",
         order = "xyz",
         type = "fluid"
       },
       {
         base_color = {
-          b = 0.03,
-          g = 0.32000000000000002,
-          r = 0.15
+          b = 0.0,
+          g = 0.65,
+          r = 1.0
         },
         default_temperature = 18,
         flow_color = {
-          b = 0.31000000000000001,
-          g = 0.75,
-          r = 0.42999999999999998
+          b = 0.0,
+          g = 0.8,
+          r = 1.0
         },
         heat_capacity = "0.1KJ",
         icon = "__base__/graphics/icons/fluid/lubricant.png",
         icon_mipmaps = 4,
         icon_size = 64,
-        name = "marille-pure",
+        name = "marille-schnaps-aged",
         order = "xyz",
         type = "fluid"
       }
