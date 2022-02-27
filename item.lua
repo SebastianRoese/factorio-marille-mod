@@ -13,10 +13,21 @@
         icon = "__base__/graphics/icons/battery.png",
         icon_mipmaps = 4,
         icon_size = 64,
-        name = "flask",
-        order = "xyz",
+        name = "marille-flask",
+        order = "marille-flask",
         stack_size = 200,
         subgroup = "tool",
+        type = "item"
+      },
+      {
+        icon = "__base__/graphics/icons/battery.png",
+        icon_mipmaps = 4,
+        icon_size = 32,
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-keg.png",
+        name = "marille-keg",
+        order = "marille-keg",
+        stack_size = 200,
+        subgroup = "intermediate-product",
         type = "item"
       },
       {

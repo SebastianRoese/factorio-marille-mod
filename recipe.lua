@@ -15,6 +15,18 @@ data:extend({
     },
     {
         type = "recipe",
+        name = "marille-keg",
+        energy_required = 60,
+        enabled = true,
+        ingredients = {
+            { name = "iron-plate", amount = 20 },
+            { name = "wood", amount = 100 },
+        },
+        result = "marille-keg",
+        result_count = 10,
+    },
+    {
+        type = "recipe",
         name = "marille-mosting",
         category = "fuel-refinery",
         icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-most.png",
