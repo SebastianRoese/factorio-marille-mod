@@ -4,7 +4,7 @@
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-fruit",
-        order = "xyz",
+        order = "marille-fruit",
         stack_size = 200,
         subgroup = "raw-material",
         type = "item"
@@ -47,7 +47,7 @@
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-most",
-        order = "xyz",
+        order = "marille-most",
         type = "fluid"
       },
       {
@@ -67,7 +67,7 @@
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-schnaps",
-        order = "xyz",
+        order = "marille-schnaps",
         type = "fluid"
       },
       {
@@ -83,11 +83,11 @@
           r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__base__/graphics/icons/fluid/lubricant.png",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged.png",
         icon_mipmaps = 4,
         icon_size = 64,
-        name = "marille-schnaps-aged",
-        order = "xyz",
+        name = "marille-aged",
+        order = "marille-aged",
         type = "fluid"
       }
   })

@@ -67,4 +67,27 @@ data:extend({
         subgroup = "fluid-recipes",
         order = "y08[marille-schnaps]",
       },
+      {
+        type = "recipe",
+        name = "marille-aged",
+        category = "fuel-refinery",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged.png",
+        icon_size = 64,
+        energy_required = 20,
+        enabled = true,
+        allow_productivity = true,
+        ingredients = {
+          { type = "fluid", name = "marille-schnaps", amount = 100 },
+          { name = "marille-keg", amount=10},
+        },
+        results = {
+          { type = "fluid", name = "marille-aged", amount = 90 },
+          { name = "marille-keg", amount=5},
+        },
+        crafting_machine_tint = {
+            primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
+          },
+        subgroup = "fluid-recipes",
+        order = "y08[marille-aged]",
+      }
     })  
