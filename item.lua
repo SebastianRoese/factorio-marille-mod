@@ -1,8 +1,8 @@
   data:extend({
-    {
+      {
         icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille.png",
         icon_mipmaps = 4,
-        icon_size = 64,
+        icon_size = 32,
         name = "marille-fruit",
         order = "marille-fruit",
         stack_size = 200,
@@ -10,11 +10,31 @@
         type = "item"
       },
       {
-        icon = "__base__/graphics/icons/battery.png",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-empty-bottle.png",
         icon_mipmaps = 4,
         icon_size = 64,
-        name = "marille-flask",
-        order = "marille-flask",
+        name = "marille-empty-bottle",
+        order = "marille-empty-bottle",
+        stack_size = 200,
+        subgroup = "intermediate-product",
+        type = "item"
+      },
+      {
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-schnaps-bottle.png",
+        icon_mipmaps = 4,
+        icon_size = 64,
+        name = "marille-schnaps-bottle",
+        order = "marille-schnaps-bottle",
+        stack_size = 200,
+        subgroup = "tool",
+        type = "item"
+      },
+      {
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged-bottle.png",
+        icon_mipmaps = 4,
+        icon_size = 64,
+        name = "marille-aged-bottle",
+        order = "marille-aged-bottle",
         stack_size = 200,
         subgroup = "tool",
         type = "item"
@@ -63,7 +83,7 @@
           r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__base__/graphics/icons/fluid/lubricant.png",
+        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-schnaps.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-schnaps",

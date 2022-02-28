@@ -26,68 +26,105 @@ data:extend({
         result_count = 10,
     },
     {
-        type = "recipe",
-        name = "marille-mosting",
-        category = "fuel-refinery",
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-most.png",
-        icon_size = 64,
-        energy_required = 20,
-        enabled = true,
-        allow_productivity = true,
-        ingredients = {
-          { type = "item", name = "marille-fruit", amount = 80 },
-        },
-        results = {
-          { type = "fluid", name = "marille-most", amount = 1 },
-        },
-        crafting_machine_tint = {
-            primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
-        },
-        subgroup = "fluid-recipes",
-        order = "y08[marille-mosting]",
+      type = "recipe",
+      name = "marille-empty-bottle",
+      energy_required = 20,
+      enabled = true,
+      ingredients = {
+          { name = "glass", amount = 20 },
       },
-      {
-        type = "recipe",
-        name = "marille-schnaps",
-        category = "fuel-refinery",
-        icon = "__base__/graphics/icons/fluid/lubricant.png",
-        icon_size = 64,
-        energy_required = 20,
-        enabled = true,
-        allow_productivity = true,
-        ingredients = {
-          { type = "fluid", name = "marille-most", amount = 10 },
-        },
-        results = {
-          { type = "fluid", name = "marille-schnaps", amount = 1 },
-        },
-        crafting_machine_tint = {
-            primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
-          },
-        subgroup = "fluid-recipes",
-        order = "y08[marille-schnaps]",
+      result = "marille-empty-bottle",
+      result_count = 1,
+  },
+  {
+    type = "recipe",
+    name = "marille-schnaps-bottle",
+    energy_required = 10,
+    category = "crafting-with-fluid",
+    enabled = true,
+    ingredients = {
+      { type = "fluid", name = "marille-schnaps", amount = 70 },
+      { name = "marille-empty-bottle", amount = 1 },
+    },
+    result = "marille-schnaps-bottle",
+    result_count = 1,
+  },
+  {
+    type = "recipe",
+    name = "marille-aged-bottle",
+    energy_required = 10,
+    category = "crafting-with-fluid",
+    enabled = true,
+    ingredients = {
+      { type = "fluid", name = "marille-aged", amount = 70 },
+      { name = "marille-empty-bottle", amount = 1 },
+    },
+    result = "marille-aged-bottle",
+    result_count = 1,
+  },
+  {
+      type = "recipe",
+      name = "marille-mosting",
+      category = "fuel-refinery",
+      icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-most.png",
+      icon_size = 64,
+      energy_required = 20,
+      enabled = true,
+      allow_productivity = true,
+      ingredients = {
+        { type = "item", name = "marille-fruit", amount = 80 },
       },
-      {
-        type = "recipe",
-        name = "marille-aged",
-        category = "fuel-refinery",
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged.png",
-        icon_size = 64,
-        energy_required = 20,
-        enabled = true,
-        allow_productivity = true,
-        ingredients = {
-          { type = "fluid", name = "marille-schnaps", amount = 100 },
-          { name = "marille-keg", amount=10},
+      results = {
+        { type = "fluid", name = "marille-most", amount = 1 },
+      },
+      crafting_machine_tint = {
+          primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
+      },
+      subgroup = "fluid-recipes",
+      order = "y08[marille-mosting]",
+    },
+    {
+      type = "recipe",
+      name = "marille-schnaps",
+      category = "fuel-refinery",
+      icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-schnaps.png",
+      icon_size = 64,
+      energy_required = 20,
+      enabled = true,
+      allow_productivity = true,
+      ingredients = {
+        { type = "fluid", name = "marille-most", amount = 10 },
+      },
+      results = {
+        { type = "fluid", name = "marille-schnaps", amount = 1 },
+      },
+      crafting_machine_tint = {
+          primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
         },
-        results = {
-          { type = "fluid", name = "marille-aged", amount = 90 },
-          { name = "marille-keg", amount=5},
+      subgroup = "fluid-recipes",
+      order = "y08[marille-schnaps]",
+    },
+    {
+      type = "recipe",
+      name = "marille-aged",
+      category = "fuel-refinery",
+      icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged.png",
+      icon_size = 64,
+      energy_required = 20,
+      enabled = true,
+      allow_productivity = true,
+      ingredients = {
+        { type = "fluid", name = "marille-schnaps", amount = 100 },
+        { name = "marille-keg", amount=10},
+      },
+      results = {
+        { type = "fluid", name = "marille-aged", amount = 90 },
+        { name = "marille-keg", amount=5},
+      },
+      crafting_machine_tint = {
+          primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
         },
-        crafting_machine_tint = {
-            primary = { r = 1.0, g = 0.6, b = 0.0, a = 0.80 },
-          },
-        subgroup = "fluid-recipes",
-        order = "y08[marille-aged]",
-      }
+      subgroup = "fluid-recipes",
+      order = "y08[marille-aged]",
+    }
     })  
