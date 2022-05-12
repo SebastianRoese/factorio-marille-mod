@@ -1,6 +1,6 @@
   data:extend({
       {
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille.png",
+        icon = "__marille_mod__/graphics/icons/marille.png",
         icon_mipmaps = 4,
         icon_size = 32,
         name = "marille-fruit",
@@ -10,7 +10,7 @@
         type = "item"
       },
       {
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-empty-bottle.png",
+        icon = "__marille_mod__/graphics/icons/marille-empty-bottle.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-empty-bottle",
@@ -20,7 +20,7 @@
         type = "item"
       },
       {
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-schnaps-bottle.png",
+        icon = "__marille_mod__/graphics/icons/marille-schnaps-bottle.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-schnaps-bottle",
@@ -30,7 +30,7 @@
         type = "item"
       },
       {
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged-bottle.png",
+        icon = "__marille_mod__/graphics/icons/marille-aged-bottle.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-aged-bottle",
@@ -43,7 +43,7 @@
         icon = "__base__/graphics/icons/battery.png",
         icon_mipmaps = 4,
         icon_size = 32,
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-keg.png",
+        icon = "__marille_mod__/graphics/icons/marille-keg.png",
         name = "marille-keg",
         order = "marille-keg",
         stack_size = 200,
@@ -63,7 +63,7 @@
           r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-most.png",
+        icon = "__marille_mod__/graphics/icons/marille-most.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-most",
@@ -83,7 +83,7 @@
           r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-schnaps.png",
+        icon = "__marille_mod__/graphics/icons/marille-schnaps.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-schnaps",
@@ -103,7 +103,7 @@
           r = 1.0
         },
         heat_capacity = "0.1KJ",
-        icon = "__Marille_Lovers_Fastwalk__/graphics/icons/marille-aged.png",
+        icon = "__marille_mod__/graphics/icons/marille-aged.png",
         icon_mipmaps = 4,
         icon_size = 64,
         name = "marille-aged",

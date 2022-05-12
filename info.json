@@ -1,9 +1,9 @@
 {
-	"name": "Marille_Lovers_Fastwalk",
-	"version": "1.0.0",
-	"title": "Marille Lovers Fastwalk",
-	"author": "Mangelbeitigung Crew",
-	"factorio_version": "1.1",
-	"dependencies": [ "base >= 1.1" ],
-	"description": "Adds Marille Schnaps and Recipes to the game..."
+  "name": "marille_mod",
+  "version": "1.0.2",
+  "title": "Marille Mod",
+  "author": "Mangelbeitigung Crew",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "Adds Marille Schnaps and Recipes to the Game..."
 }
